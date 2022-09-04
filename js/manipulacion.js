@@ -17,6 +17,7 @@ window
 // selecionar elemento com base na tag, #id ou .class
 let titulo = document.querySelector('h1')
 //console.log(titulo)
+let image = document.querySelector('#foto')
 
 // .textContent
 // propriedade ou atributo textContent
@@ -30,11 +31,12 @@ titulo.textContent = 'DOM'
 
 // .querySelectorAll()
 // selecionar todos elemento com base na tag, #id ou .class
-//let testando = document.querySelectorAll('.box')
+//se crea una variable 
+let testando = document.querySelectorAll('.box')
 //console.log(testando)
-//document.write(testando[0].textContent)
-//document.write(testando[1].textContent)
-//document.write(testando[2].textContent)
+document.write(testando[0].textContent)
+document.write(testando[1].textContent)
+document.write(testando[2].textContent)
 //testando[0].textContent = 'texto qualquer'
 
 // Existem também os métodos
@@ -45,7 +47,8 @@ titulo.textContent = 'DOM'
 .getElementsByClassName()
 */
 
-//let testeTag = document.getElementsByTagName('div')
+
+let testeTag = document.getElementsByTagName('div')
 //console.log(testeTag)
 //document.write(testeTag[0].textContent)
 //document.write(testeTag[1].textContent)
